@@ -1,0 +1,78 @@
+UI/UX UI = 
+UI = Chirag Pradhan = 
+UX = user experience = 
+
+UX Introduction:
+
+
+user add to card = place order = 3 days = 
+
+ux = website = code = html, css, bootstrap/tailwind, Javascript, React
+ui
+
+website = website = layer = website, web app 
+
+site content = static = website
+web app =  dynamic = web app = eg. youtube, facebook = 
+
+friend = post = like, comment, share
+
+website = sdlc
+
+dairy shop  = website = web site = approch
+
+user = dairy product = place = 
+
+website creater = client = requirements =
+
+ui/ux designer = ui design = figma = 
+ui design, db desing = data base = inforamtion store place
+
+product: name(str), price(int), description(str), category(fk), 
+ 
+website creater = 
+front - end, back-end,db design, full stack
+
+front  -end = ui/ux = web structure = html = form = css = javascript = api = react = seo= next.js (ssr) =  redux  = 
+ui
+18, 19 update seo = search engin optimization = heading = coding = h1 = p = list =
+
+backend = db design = api banaune = application programming interface = php, laravel, python djagno = api =  
+
+response = data.course.page_title = map = 
+
+QA = error = pass
+
+
+website = qa = pass = live = hosting, domain  = \
+
+vs code 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
