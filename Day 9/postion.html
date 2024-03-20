@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 900px;
+            width: 600px;
+            border: 2px solid black;
+            /* display: flex; */
+            position: relative;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            font-size: 1rem;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #box1{
+            background-color: red;
+            position: static;
+            margin-left: 10px;
+            /* left: 2rem; */
+            /* right: ;
+            top: ;
+            bottom: ; doesn't work */ 
+        }
+        #box2{
+            background-color: purple;
+            position: relative;
+            /* left: 2rem; */
+            /* rem = html(16px) */
+            top: 1rem;
+        }
+        #box3{
+            background-color: peru;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        #box4{
+            background-color: lightgreen;
+            position: fixed;
+        }
+        #box5{
+            background-color: yellowgreen;
+            position: sticky;
+            top: 0;
+            /* top: 2rem; */
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- position types -->
+     <!-- <ol>
+        <li>static</li>
+        <li>relative</li>
+        <li>abosolute</li>
+        <li>fixed</li>
+        <li>sticky</li>
+     </ol> -->
+
+
+     <div class="container">
+        <div class="box" id="box1">static</div>
+        <div class="box" id="box2">relative</div>
+        <div class="box" id="box3">abosolute</div>
+        <div class="box" id="box4">fixed</div>
+        <div class="box" id="box5">sticky</div>
+     </div>
+
+
+
+</body>
+</html>
