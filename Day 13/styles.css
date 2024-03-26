@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.nav_links{
+    width: 40%;
+}
+.nav_links ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+/* header ends  */
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
