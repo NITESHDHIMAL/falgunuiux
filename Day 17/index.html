@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Flexbox</title>
+    <style>
+        .parent {
+            border: 2px solid black;
+            height: 500px;
+            /* width: 800px; */
+            display: flex;
+            /* column direction => row  */
+            /* display: inline; */
+            /* justify-content: flex-start; */
+            /* justify-content: flex-end; */
+            /* justify-content: left; */
+            /* justify-content: right; */
+            /* justify-content: center; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+
+            /* align-items: flex-end; */
+            /* align-items: flex-start; */
+            /* align-items: center; */
+
+            /* flex-wrap: wrap; */
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: wrap-reverse; */
+
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row-reverse; */
+
+            /* gap: 1rem; */
+            /* row-gap: 1rem; */
+            /* column-gap: 4rem; */
+
+            /* align-content:end; */
+            /* align-content:center; */
+            /* align-content:start; */
+
+        }
+
+        .parent div {
+            height: 50px;
+            width: 100px;
+            background-color: lightgreen;
+            border: 2px solid black;
+            font-size: 3rem;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #child1 {
+            order: 10;
+            /* align-self: center; */
+            /* align-self: flex-start; */
+            /* align-self: flex-end; */
+            /* flex-grow: 1; */
+        }
+
+        #child2 {
+            order: 2;
+        }
+
+        #child3 {
+            order: 3;
+            /* flex-shrink: 2; */
+            flex-shrink: 4;
+        }
+
+        #child4 {
+            order: 4;
+        }
+
+        #child5 {
+            order: 5;
+        }
+
+        #child6 {
+            order: 6;
+        }
+
+        #child7 {
+            order: 7;
+        }
+
+        #child8 {
+            order: 8;
+        }
+
+        #child9 {
+            order: 9;
+            /* flex-grow: 2; */
+        }
+
+        #child10 {
+            order: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <!-- Parent Properties 
+    display
+    justify-content(row)
+    align-items(column)
+    align-content
+    flex-direction
+    flex-wrap
+    gap
+
+    children Porperties
+    order
+    flex-grow
+    flex-shrink
+    align-self -->
+
+
+
+    <div class="parent">
+
+        <div id="child1">1</div>
+        <div id="child2">2</div>
+        <div id="child3">3</div>
+        <div id="child4">4</div>
+        <div id="child5">5</div>
+        <div id="child6">6</div>
+        <div id="child7">7</div>
+        <div id="child8">8</div>
+        <div id="child9">9</div>
+        <div id="child10">10</div>
+
+    </div>
+
+
+</body>
+
+</html>
