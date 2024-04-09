@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation(@keframe)</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(170, 128, 212);
+            animation-name: colorchange;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            /* animation-iteration-count: 2; */
+            animation-timing-function: ease-in;
+            /* animation-timing-function: ease-out; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-delay: 2s; */
+            /* animation-direction:reverse; */
+            /* animation-direction:alternate; */
+            /* animation-direction:alternate-reverse; */
+            /* animation-fill-mode:forwards; */
+            /* animation-fill-mode:backwards; */
+            position: relative;
+            /* margin: auto; */
+            font-size: 3rem;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border-radius: 2rem; */
+        }
+
+        /* @keyframes colorchange {
+            from{
+                background-color: rgb(170, 128, 212);
+                top: 0;
+            }
+            to{
+                background-color: aquamarine;
+                top: 200px;
+            }
+        } */
+
+        @keyframes colorchange {
+            0%{
+                background-color: aqua;
+                top: 0;
+                left: 0;
+            }
+            25%{
+                background-color: yellowgreen;
+                left: 500px;
+                top: 0;
+            }
+            50%{
+                background-color: rgb(25, 73, 230);
+                top: 500px;
+                left: 500px;
+            }
+            75%{
+                background-color: rgb(219, 156, 39);
+                top: 500px;
+                left: 0;
+            }
+            100%{
+                background-color: rgb(87, 10, 70);
+                top: 0;
+            }
+        }
+
+
+         /* @keyframes colorchange {
+            0%{
+                background-color: aqua;
+                width: 0%;
+            }
+            25%{
+                background-color: yellowgreen;
+                width: 25%;
+            }
+            50%{
+                background-color: rgb(25, 73, 230);
+                width: 50%;
+                 
+            }
+            75%{
+                background-color: rgb(219, 156, 39);
+                width: 75%;
+            }
+            100%{
+                background-color: rgb(87, 10, 70);
+                width: 100%;
+            }
+        } */
+
+
+        /* @keyframes colorchange {
+            from{
+                background-color: rgb(170, 128, 212);
+                top: 0;
+            }
+            to{
+                background-color: aquamarine;
+                top: 200px;
+            }
+        } */
+
+    </style>
+</head>
+<body>
+
+
+
+    <div class="box">
+        <!-- Loading... -->
+    </div>
+
+    
+</body>
+</html>

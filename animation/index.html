@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            /* background-color: lightcoral; */
+            /* transition-property: background-color height; */
+            /* transition-property: all;
+            
+            transition-duration:2s; */
+            /* transition-delay: 3s; */
+            /* transition-timing-function: ease; */
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function: ease-in-out; */
+            /* transition-timing-function: ease-out; */
+            /* transition-timing-function:cubic-bezier(0.54,-0.39, 0.43, 1.24); */
+            transition: all 2s 1s ease;
+            box-shadow: 2px 2px 20px 16px rgb(212, 32, 32);
+            border-radius: 100%;
+            margin: auto;
+        }
+        .box:hover{
+            box-shadow: 2px 2px 20px 16px gray;
+            /* background-color: aquamarine; */
+            cursor: pointer;
+            height: 100px;
+            width: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="box">
+        
+    </div>
+
+
+</body>
+</html>

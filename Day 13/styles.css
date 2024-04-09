@@ -7,54 +7,102 @@
 .flex {
     display: flex;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
+header {
+    /* position: sticky;
+    top: 0; */
+    /* position: fixed; */
+    width: 100%;
+    position: sticky;
+    top: 0px;
+
+}
+
+
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 60px;
     align-items: center;
-    margin-left: 120px;
-    margin-right: 120px;
+    width: 100%;
+    background-color: green;
+    position: relative;
 }
-.nav_links{
+
+.subnavbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_links {
     width: 40%;
 }
-.nav_links ul{
+
+.nav_links ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
-/* header ends  */
 
-.intro{
+/* header ends  */
+#intro {
+    scroll-margin-top: 60px;
+}
+
+.intro {
     display: flex;
     justify-content: space-around;
 }
-.about{
+
+.profile_pic img:hover {
+    cursor: pointer;
+    height: 400px;
+}
+
+/* intro ends  */
+.about {
     display: flex;
     justify-content: space-around;
 }
-.skills{
+
+.subabout img {
+    clip-path: polygon(48% 59%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.skills {
     display: flex;
     justify-content: space-around;
 }
-.work{
+
+.home__blob {
+    height: 200px;
+}
+
+.work {
     display: flex;
     justify-content: space-between;
 }
-.contact{
+
+.contact {
     display: flex;
     justify-content: center;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: center;
 }
 
 
-@media screen {
-    
-}
+/* #intro,
+#about,
+#skills,
+#work,
+#contact {
+    scroll-margin-top: 60px;
+} */

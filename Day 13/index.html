@@ -7,35 +7,43 @@
     <title>Persion Portfolio</title>
     <!-- local  css  -->
     <link rel="stylesheet" href="./styles.css">
+
+    <!-- data aos cdn  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 </head>
 
 <body>
 
 
     <header>
-        <nav class="navbar flex">
-            <div>
-                <a href="">Marlon</a>
-            </div>
+        <nav class="navbar ">
+            <div class="subnavbar">
+                <div>
+                    <a href="">Marlon</a>
+                </div>
 
-            <div class="nav_links">
-                <ul class="flex">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
+                <div class="nav_links">
+                    <ul class="flex">
+                        <li><a href="#intro">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-
         </nav>
     </header>
 
     <main>
 
         <!-- intro  -->
-        <section class="intro">
-            <div>
+        <section id="intro" class="intro">
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="1000"
+                data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+                data-aos-anchor-placement="top-center">
                 <div class="home_title">
                     <h1>Hi, <br>
                         I'am <span>Marlon</span> <br>
@@ -51,17 +59,31 @@
                 </div>
             </div>
 
-            <div class="profile_pic">
-                <img src="https://simple-portfolio-omega-kohl.vercel.app/assets/img/perfil.png" alt="profile">
-            </div>
+            <!-- <div class="profile_pic">
+                <img src="https://simple-portfolio-omega-kohl.vercel.app/assets/img/perfil.png" height="200px" alt="profile">
+            </div> -->
+            <svg data-aos="fade-down" class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                    <path
+                        d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z">
+                    </path>
+                </mask>
+                <g mask="url(#mask0)">
+                    <path
+                        d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z">
+                    </path>
+                    <image class="home__blob-img" x="50" y="60"
+                        href="https://simple-portfolio-omega-kohl.vercel.app/assets/img/perfil.png"></image>
+                </g>
+            </svg>
         </section>
-
         <!-- about  -->
-        <section>
+        <section id="about">
             <h2 class="section_title">About</h2>
             <div class="about">
-                <div>
-                    <img src="https://simple-portfolio-omega-kohl.vercel.app/assets/img/about.jpg" alt="">
+                <div class="subabout">
+                    <img src="https://simple-portfolio-omega-kohl.vercel.app/assets/img/about.jpg" height="200" alt="">
                 </div>
 
                 <div>
@@ -73,10 +95,8 @@
                 </div>
             </div>
         </section>
-
-
         <!-- skills -->
-        <section>
+        <section class="skills">
             <h2 class="section_title">Skills</h2>
             <div class="skills">
                 <div>
@@ -102,7 +122,7 @@
 
         </section>
         <!-- work  -->
-        <section>
+        <section class="work">
             <h2 class="section_title">Work</h2>
             <div class="work">
                 <div class="work_link" id="work_link1">
@@ -128,23 +148,22 @@
 
         </section>
         <!-- contact  -->
-        <section>
+        <section class="contact">
             <h2 class="section_title">Contact</h2>
             <div class="contact">
-            <form action="">
-                <label for="">
-                    <input type="text" placeholder="Name">
-                </label>
-                <label for="">
-                    <input type="email">
-                </label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <form action="">
+                    <label for="">
+                        <input type="text" placeholder="Name">
+                    </label>
+                    <label for="">
+                        <input type="email">
+                    </label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
 
-                <button value="submit" type="submit">Submit</button>
-            </form>
+                    <button value="submit" type="submit">Submit</button>
+                </form>
             </div>
         </section>
-
     </main>
 
 
@@ -161,7 +180,12 @@
         <p>© Bedimcode. All rigths reserved</p>
     </footer>
 
+    <!-- data aos js cdn  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
