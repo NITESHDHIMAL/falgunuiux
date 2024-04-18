@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background: lightgreen;
+            margin: auto;
+        }
+        .box:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+<h3>Events Types</h3>
+
+<ol>
+    <li>Mouse
+        <ol>
+            <li>left click(onclick)</li>
+            <li>oncontextmenu(right click)</li>
+            <li>ondblclick</li>
+            <li>onmouseup</li>
+            <li>onmousedown</li>
+            <li>onmouseover</li>
+            <li>onmouseout</li>
+        </ol>
+    </li>
+    <li>Keyboard
+        <ol>
+            <li>onkeyup</li>
+            <li>onkeydown</li>
+            <li>onkeypress</li>
+        </ol>
+    </li>
+    <li>Window</li>
+</ol>
+
+
+<!-- <button onclick="eventCall()">Click me!</button> -->
+
+<!-- <div class="box" onclick="eventCall()"> -->
+<!-- <div class="box" oncontextmenu="eventCall()"> -->
+<!-- <div class="box" ondblclick="eventCall()"> -->
+<!-- <div class="box" onmousedown="eventCall()"> -->
+<!-- <div class="box" onmouseup="eventCall()"> -->
+<!-- <div class="box" onmouseover="eventCall()"> -->
+<!-- <div class="box" onmouseout="eventCall()"> -->
+
+
+</div>
+
+<script>
+
+    // alert("Hello world!"); 
+    // prompt()
+
+
+    const eventCall = () => {
+        alert("event call")
+    }
+
+    // eventCall()
+
+</script>
+</body>
+</html>
